@@ -1,0 +1,26 @@
+body {
+font-family: Arial, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+}
+.jogo {
+  text-align: center;
+}
+.tabuleiro {
+    display: grid;
+    grid-template-columns: repeat(3,1080px);
+}
+.celula {
+    width: 100px;
+    height: 100px;
+    background-color: darkslateblue;
+    border: 2px solid #333;
+    font-size: 2em;
+
+
+
+
+
+}
